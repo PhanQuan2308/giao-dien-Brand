@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand{
+    
+    display: flex;
+     width: 63%;
+     margin: 0 auto;
+    height: 620px;
+    border:  thin solid rgb(214, 208, 208);
+}
+.brand-left{
+    background-color: rgb(249, 120, 120);
+    width: 60%;
+    height: 620px;
+    position: relative;
+}
+.brand-left a{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.brand-left p{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+
+
+
+
+
+.brand-right{
+    width: 40%; 
+    height: 620px;
+    margin: 50px 35px;   
+}
+.brand-right fieldset{
+    border: none;
+}
+
+.brand-right-top h1{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.brand-right-top p:nth-child(3) {
+    color:  rgb(249, 120, 120) ;
+    padding-bottom: 15px;
+}
+.button-top{
+    
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+} 
+.button-top button:nth-child(1){
+    width: 120px;
+    height: 40px;
+    padding-right: ;
+    background-color: white;
+    border: thin solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.button-top button img:nth-child(1){
+    width: 25px;
+    padding-right: 5px;
+}
+.button-top button:nth-child(2){
+    width: 120px;
+    height: 40px;
+    background-color: rgb(175, 175, 232);
+    color: white;
+    border: none;
+    border: thin solid grey;
+    border-radius: 5px;
+}
+.button-top button:nth-child(2) img{
+    width: 28px;
+    vertical-align: bottom;
+}
+.button-top button:hover {
+    cursor: pointer;
+}
+.brand-right-top p:nth-child(5){
+    padding-top: 40px;
+    
+    text-align: center;
+}
+
+
+.brand-right-bot .user input{
+    width: 260px;
+    height: 40px ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: thin solid gray;
+    padding-left: 20px;
+}
+.user{
+    position: relative;
+}
+.user i{
+    position: absolute;
+    left: 3px;
+    top: 1px;
+}
+
+
+.brand-right-bot .email input{
+    width: 260px;
+    height: 40px ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: thin solid gray;
+    padding-left: 20px;
+}
+.email{
+    position: relative;
+}
+.email i{
+    position: absolute;
+    left:3px;
+    top: 1px;
+}
+
+.brand-right-bot .password input{
+    width: 260px;
+    height: 40px ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: thin solid gray;
+    padding-left: 20px;
+}
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    left:3px;
+    top: 1px;
+}
+.brand-right-bot:nth-child(2) p{
+    padding-top: 20px;   
+}
+.brand-right-bot-btn{
+    padding-top: 40px;
+    
+}
+
+.brand-right-bot-btn button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    border: thin solid gray;
+    background-color: rgb(249, 120, 120);
+    font-size: 18px;
+}
+.brand-right-bot-btn button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

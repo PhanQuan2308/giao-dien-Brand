@@ -6,15 +6,15 @@
 .brand{
     
     display: flex;
-     width: 63%;
+     max-width: 100%;
      margin: 0 auto;
-    height: 620px;
+    height: 900px;
     border:  thin solid rgb(214, 208, 208);
 }
 .brand-left{
     background-color: rgb(249, 120, 120);
     width: 60%;
-    height: 620px;
+    height: 650px;
     position: relative;
 }
 .brand-left a{
@@ -24,11 +24,18 @@
 }
 .brand-left p{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    font-size: 22px;
     color: white;
 }
-
-
+.brand-left img{
+    width: 100%;
+    height: 550px;
+}
+.brand-left a img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -36,7 +43,7 @@
 .brand-right{
     width: 40%; 
     height: 620px;
-    margin: 50px 35px;   
+    padding: 30px 120px;   
 }
 .brand-right fieldset{
     border: none;
@@ -44,10 +51,14 @@
 
 .brand-right-top h1{
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 56px;
+}
+.brand-right-top p:nth-child(2){
+    font-size: 20px;
 }
 .brand-right-top p:nth-child(3) {
     color:  rgb(249, 120, 120) ;
+    font-size: 18px;
     padding-bottom: 15px;
 }
 .button-top{
@@ -60,7 +71,7 @@
 .button-top button:nth-child(1){
     width: 120px;
     height: 40px;
-    padding-right: ;
+    
     background-color: white;
     border: thin solid grey;
     border-radius: 5px;
@@ -89,15 +100,17 @@
     cursor: pointer;
 }
 .brand-right-top p:nth-child(5){
-    padding-top: 40px;
-    
+    padding-top: 30px;
+    padding-bottom: 0;
     text-align: center;
 }
 
-
+.brand-right-bot{
+    padding-top: 0;
+}
 .brand-right-bot .user input{
-    width: 260px;
-    height: 40px ;
+    width: 270px;
+    height: 50px ;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -113,10 +126,18 @@
     top: 1px;
 }
 
-
+.brand-right-bot p:nth-child(1) {
+    font-size: 20px;
+}
+.brand-right-bot p:nth-child(3){
+    font-size: 20px;
+}
+.brand-right-bot p:nth-child(5){
+    font-size: 20px;
+}
 .brand-right-bot .email input{
-    width: 260px;
-    height: 40px ;
+    width: 270px;
+    height: 50px ;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -133,8 +154,8 @@
 }
 
 .brand-right-bot .password input{
-    width: 260px;
-    height: 40px ;
+    width: 270px;
+    height: 50px ;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -150,7 +171,7 @@
     top: 1px;
 }
 .brand-right-bot:nth-child(2) p{
-    padding-top: 20px;   
+    padding-top: 10px;   
 }
 .brand-right-bot-btn{
     padding-top: 40px;
@@ -158,8 +179,8 @@
 }
 
 .brand-right-bot-btn button{
-    width: 250px;
-    height: 40px;
+    width: 270px;
+    height: 50px;
     color: white;
     border-radius: 5px;
     border: none;

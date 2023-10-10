@@ -190,6 +190,7 @@
 }
 .brand-right-bot-btn button:hover{
     cursor: pointer;
+    background-color:  rgb(240, 43, 43);
 }
 
 

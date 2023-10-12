@@ -48,7 +48,7 @@
 .brand-right fieldset{
     border: none;
 }
-
+/* ----------------------Right top-------------- */
 .brand-right-top h1{
     padding-bottom: 3px;
     font-size: 79px;
@@ -125,6 +125,9 @@
 .button-top button:hover {
     cursor: pointer;
 }
+
+
+/* ---------------------Right bot ---------- */
 .brand-right-top p:nth-child(5){
     padding-top: 30px;
     padding-bottom: 0;

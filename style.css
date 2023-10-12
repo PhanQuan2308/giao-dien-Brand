@@ -81,6 +81,15 @@
     margin-right: 50px;
     background-color: white;
 }
+.button-top button:nth-child(1):hover{
+    background-color: rgb(216, 216, 235);
+    transition: all 0.5s ease;
+}
+.button-top button:nth-child(2):hover{
+    background-color: rgb(142, 142, 233);
+    transition: all 0.5s ease;
+    
+}
 .button-top img{
     width: 40px;
     padding-right: 5px;
@@ -211,6 +220,7 @@
 .brand-right-bot-btn button:hover{
     cursor: pointer;
     background-color:  rgb(240, 43, 43);
+    transition: all 0.5s ease;
 }
 
 

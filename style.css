@@ -38,64 +38,81 @@
 }
 
 
-
+/* -----------------------Right---------- */
 
 .brand-right{
     width: 40%; 
     height: 620px;
-    padding: 30px 120px;   
+    padding: 30px 50px;   
 }
 .brand-right fieldset{
     border: none;
 }
 
 .brand-right-top h1{
-    padding-bottom: 20px;
-    font-size: 56px;
+    padding-bottom: 3px;
+    font-size: 79px;
 }
 .brand-right-top p:nth-child(2){
-    font-size: 20px;
+    font-size: 25px;
 }
 .brand-right-top p:nth-child(3) {
     color:  rgb(249, 120, 120) ;
     font-size: 18px;
     padding-bottom: 15px;
 }
-.button-top{
-    
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    
-} 
-.button-top button:nth-child(1){
-    width: 120px;
-    height: 40px;
-    
-    background-color: white;
-    border: thin solid grey;
-    border-radius: 5px;
-    margin-right: 20px;
-    font-size: 15px;
+.brand-right-top p:nth-child(3):hover{
+    cursor: pointer;
+    color: rgb(139, 139, 225);
 }
-
-.button-top button img:nth-child(1){
-    width: 25px;
+.button-top{
+    width: 100%;
+    display: flex;
+}
+.button-top button:nth-child(1){
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border: thin solid gray;
+    margin-right: 50px;
+    background-color: white;
+}
+.button-top img{
+    width: 40px;
     padding-right: 5px;
 }
+.button-top button:nth-child(1) p{
+    font-size: 22px;
+}
+
 .button-top button:nth-child(2){
-    width: 120px;
-    height: 40px;
-    background-color: rgb(175, 175, 232);
-    color: white;
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
     border: none;
-    border: thin solid grey;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: thin solid gray;
+    background-color: rgb(54, 54, 235);
+    color: white;
 }
-.button-top button:nth-child(2) img{
-    width: 28px;
-    vertical-align: bottom;
+.button-top img{
+    width: 40px;
+    padding-right: 5px;
 }
+.button-top button:nth-child(2) p{
+    font-size: 22px;
+}
+
+
+
+
+
 .button-top button:hover {
     cursor: pointer;
 }
@@ -109,13 +126,14 @@
     padding-top: 0;
 }
 .brand-right-bot .user input{
-    width: 270px;
+    width: 100%;
     height: 50px ;
     border-radius: 10px;
     border: none;
     outline: none;
     border: thin solid gray;
     padding-left: 20px;
+    font-size: 17px;
 }
 .user{
     position: relative;
@@ -127,22 +145,23 @@
 }
 
 .brand-right-bot p:nth-child(1) {
-    font-size: 18px;
+    font-size: 24px;
 }
 .brand-right-bot p:nth-child(3){
-    font-size: 18px;
+    font-size: 24px;
 }
 .brand-right-bot p:nth-child(5){
-    font-size: 18px;
+    font-size: 24px;
 }
 .brand-right-bot .email input{
-    width: 270px;
+    width: 100%;
     height: 50px ;
     border-radius: 10px;
     border: none;
     outline: none;
     border: thin solid gray;
     padding-left: 20px;
+    font-size: 16px;
 }
 .email{
     position: relative;
@@ -154,13 +173,14 @@
 }
 
 .brand-right-bot .password input{
-    width: 270px;
+    width: 100%;
     height: 50px ;
     border-radius: 10px;
     border: none;
     outline: none;
     border: thin solid gray;
     padding-left: 20px;
+    font-size: 17px;
 }
 .password{
     position: relative;
@@ -171,22 +191,22 @@
     top: 1px;
 }
 .brand-right-bot:nth-child(2) p{
-    padding-top: 20px;   
+    padding-top: 13px;   
 }
 .brand-right-bot-btn{
-    padding-top: 40px;
+    padding-top: 30px;
     
 }
 
 .brand-right-bot-btn button{
-    width: 270px;
+    width: 100%;
     height: 50px;
     color: white;
     border-radius: 5px;
     border: none;
     border: thin solid gray;
     background-color: rgb(249, 120, 120);
-    font-size: 18px;
+    font-size: 24px;
 }
 .brand-right-bot-btn button:hover{
     cursor: pointer;

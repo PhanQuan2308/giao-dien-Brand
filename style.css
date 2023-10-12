@@ -1,241 +1,156 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:  border-box;
 }
-.brand{
-    
+body{
+    font-family: sans-serif;
+}
+.container{
     display: flex;
-     max-width: 100%;
-     margin: 0 auto;
-    height: 900px;
-    border:  thin solid rgb(214, 208, 208);
+    flex-direction: row;
 }
-.brand-left{
-    background-color: rgb(249, 120, 120);
-    width: 60%;
-    height: 650px;
-    position: relative;
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2796e;
+    width: 55%;
+    min-height: 100vh;
+    padding: 10px 20px;
 }
-.brand-left a{
-    position: absolute;
-    top: 20px;
-    left: 20px;
+.image{
+    height: 65%;
+    background-image: url(img/illustration.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
-.brand-left p{
+.text{
     text-align: center;
-    padding-top: 30px;
-    font-size: 22px;
     color: white;
-}
-.brand-left img{
-    width: 100%;
-    height: 550px;
-}
-.brand-left a img{
-    width: 100%;
-    height: 100%;
-}
-
-
-/* -----------------------Right---------- */
-
-.brand-right{
-    width: 40%; 
-    height: 620px;
-    padding: 30px 50px;   
-}
-.brand-right fieldset{
-    border: none;
-}
-/* ----------------------Right top-------------- */
-.brand-right-top h1{
-    padding-bottom: 3px;
-    font-size: 79px;
-}
-.brand-right-top p:nth-child(2){
-    font-size: 25px;
-}
-.brand-right-top p:nth-child(3) {
-    color:  rgb(249, 120, 120) ;
     font-size: 18px;
-    padding-bottom: 15px;
 }
-.brand-right-top p:nth-child(3):hover{
-    cursor: pointer;
-    color: rgb(139, 139, 225);
+/* ------------style------------ */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,  0.1);
+    padding: 50px;
 }
-.button-top{
+.tittle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}   
+form div input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,  0.1);
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+form div{
+    position: relative;
+    margin-bottom: 15px;
+}
+input:focus{
+    border: 2px solid #f2796e;
+}
+/* ----------------style social-------- */
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.btn1, 
+.btn2{
+    padding: 10px 5px;
     width: 100%;
     display: flex;
-}
-.button-top button:nth-child(1){
-    display: flex;
-    width: 180px;
-    height: 50px;
-    border-radius: 6px;
-    border: none;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     border: thin solid gray;
-    margin-right: 50px;
-    background-color: white;
-}
-.button-top button:nth-child(1):hover{
-    background-color: rgb(216, 216, 235);
-    transition: all 0.5s ease;
-}
-.button-top button:nth-child(2):hover{
-    background-color: rgb(142, 142, 233);
-    transition: all 0.5s ease;
-    
-}
-.button-top img{
-    width: 40px;
-    padding-right: 5px;
-}
-.button-top button:nth-child(1) p{
-    font-size: 22px;
-}
+    cursor: pointer;
+    border-radius: 6px;
 
-.button-top button:nth-child(2){
-    display: flex;
-    width: 180px;
-    height: 50px;
-    border-radius: 6px;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    border: thin solid gray;
-    background-color: rgb(54, 54, 235);
+}
+.btn2{
+    background-color: #4f70b5;
     color: white;
 }
-.button-top img{
-    width: 40px;
-    padding-right: 5px;
-}
-.button-top button:nth-child(2) p{
-    font-size: 22px;
-}
-
-
-
-
-
-.button-top button:hover {
-    cursor: pointer;
-}
-
-
-/* ---------------------Right bot ---------- */
-.brand-right-top p:nth-child(5){
-    padding-top: 30px;
-    padding-bottom: 0;
+.or{
     text-align: center;
 }
 
-.brand-right-bot{
-    padding-top: 0;
+.question{
+    font-size: 15px;
 }
-.brand-right-bot .user input{
-    width: 100%;
-    height: 50px ;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    border: thin solid gray;
-    padding-left: 20px;
-    font-size: 17px;
-}
-.user{
-    position: relative;
-}
-.user i{
-    position: absolute;
-    left: 3px;
-    top: 1px;
-}
-
-.brand-right-bot p:nth-child(1) {
-    font-size: 24px;
-}
-.brand-right-bot p:nth-child(3){
-    font-size: 24px;
-}
-.brand-right-bot p:nth-child(5){
-    font-size: 24px;
-}
-.brand-right-bot .email input{
-    width: 100%;
-    height: 50px ;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    border: thin solid gray;
-    padding-left: 20px;
-    font-size: 16px;
-}
-.email{
-    position: relative;
-}
-.email i{
-    position: absolute;
-    left:3px;
-    top: 1px;
-}
-
-.brand-right-bot .password input{
-    width: 100%;
-    height: 50px ;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    border: thin solid gray;
-    padding-left: 20px;
-    font-size: 17px;
-}
-.password{
-    position: relative;
-}
-.password i{
-    position: absolute;
-    left:3px;
-    top: 1px;
-}
-.brand-right-bot:nth-child(2) p{
-    padding-top: 13px;   
-}
-.brand-right-bot-btn{
-    padding-top: 30px;
-    
-}
-
-.brand-right-bot-btn button{
-    width: 100%;
-    height: 50px;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    border: thin solid gray;
-    background-color: rgb(249, 120, 120);
-    font-size: 24px;
-}
-.brand-right-bot-btn button:hover{
+span{
+    color: #f2796e;
     cursor: pointer;
-    background-color:  rgb(240, 43, 43);
-    transition: all 0.5s ease;
+}
+/* --------------style icons--------- */
+
+form div i{
+    position: absolute;
+    padding: 10px;
+}
+.success-icon, .failure-icon{
+    right: 0;
+    opacity: 0;
+}
+.failure-icon, .error{
+    color: red;
+}
+.success-icon{
+    color: green;
+}
+.error{
+    font-size: 14.5px;
+    margin-top: 5px;
 }
 
+/* ------------style of button---------- */
 
+button{
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: #f2796e;
+    border: 2px solid #f2796e;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,  0.1);
+    transition: all 0.1s ease;
+}
+button:hover{
+    opacity: 0.8;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 900px){
+        .container{
+            flex-direction: column;
+    }
+    form,
+    .content{
+        width: 100%;
+    }
+    .btn{
+        flex-direction: column;
+    }
+    .image{
+        height: 70vh;
+    }

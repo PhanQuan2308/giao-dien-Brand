@@ -4,43 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha5121ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-    <section class="brand">
-        <div class="brand-left">
-            <a href=""><img src="img/logo.svg" alt=""></a>
-            <img src="img/illustration.svg" alt="">
-            <p>Start for free & get <br>acttractive offers today</p>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="image">
+
+            </div>
+            <div class="text">
+                Start for free & get <br> attractive offers today !
+            </div>
         </div>
-        <div class="brand-right">
-            <fieldset>
-                <div class="brand-right-top">
-                    <h1>Get Started</h1>
-                    <p>Already Have an Account?</p>
-                    <p>Sign In</p>
-                    <div class="button-top">
-                        <button><img src="img/Google__G__Logo.svg.webp" alt=""><p> Sign Up</p></button>
-                        <button><img src="img/facebook-clipart-png-12.png" alt=""><p>Sign Up</p></button>
+        <form action="#" method="post">
+            <div>
+                <div class="social">
+                    <div class="tittle">Get Started</div>
+                    <div class="question">
+                        Already Have an account? <br>
+                        <span>Sign In</span>
                     </div>
-                    <p>Or</p>
-                   
+                    <div class="btn">
+                        <div class="btn1">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
+                            Sign Up
+                        </div>
+                        <div class="btn2">
+                            "<img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png">
+                             Sign Up
+                        </div>
+                    </div>
                 </div>
-                <div class="brand-right-bot">
-                    <p>User Name</p>
-                    <label class="user"><input type="text" placeholder="James bond" required><i class='bx bxs-user'></i></label>
-                    <p>Email</p>
-                    <label for="" class="email"><input type="email" placeholder="bond@gmail.com" required><i class='bx bx-envelope'></i></label>
-                    <p>Password</p>
-                    <label for="" class="password"><input type="password" placeholder="Password here" required><i class='bx bxs-lock-alt'></i></label>
-                </div>
-                <div class="brand-right-bot-btn">
-                    <button>Submit</button>
-                </div>
-            </fieldset>
-        </div>
-    </section>
+                <div class="or">Or</div>
+            </div>
+            <div>
+                <label for="username">User Name</label>
+                <i class='bx bxs-user'></i>
+                <input type="text" name="username" id="username" placeholder="James Bond">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+                <input type="text" name="email" id="email" placeholder="abc@gmail.com">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button id="btn">Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
